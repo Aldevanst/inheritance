@@ -24,12 +24,12 @@ class Parent {
     public int x;
 
     // overloading
-    void print(String tipeAnggota, int Nim) {
-        System.out.println("Nama : " + tipeAnggota + "\nNim : " + Nim);
+    void print(String namaAnggota, int Nim) {
+        System.out.println("Nama : " + namaAnggota + "\nNim : " + Nim);
     }
 
-    void println(String tipeAnggota) {
-        System.out.print("Nama : " + tipeAnggota);
+    void println(String namaAnggota) {
+        System.out.print("Nama : " + namaAnggota);
     }
 
     void print() {
@@ -41,7 +41,7 @@ class Parent {
 class A extends Parent {
     @Override
     void print() {
-        System.out.println("tidak ada");
+        System.out.println("\ntidak ada");
     }
 
     void test() {
